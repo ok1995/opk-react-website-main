@@ -1,5 +1,6 @@
 import { ReactSVG } from "react-svg";
 import Perfil from "../../assets/perfil.png";
+import PDFfile from "../../pdf/OmkarKadamResume.pdf";
 
 const Home = () => {
   return (
@@ -76,7 +77,7 @@ const Home = () => {
                 <a href="#contact" className="button button--flex">
                   Contact Me <i className="uil uil-message button__icon" />
                 </a>
-                <a href="/src/pdf/OmkarKadamResume.pdf" className="button button--flex button--secondary" target="_blank" rel="noreferrer">
+                <a href={PDFfile} className="button button--flex button--secondary" target="_blank" rel="noreferrer">
                   Download CV <i className="uil uil-download-alt button__icon" />
                 </a>
               </div>
